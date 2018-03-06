@@ -1,0 +1,380 @@
+
+* {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 750px;
+    font-size: 62.5%;
+    margin: 0 auto;
+}
+
+ul, li, div, p, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+* {
+    margin: 0 auto;
+}
+
+a {
+    display: block;
+    cursor: pointer;
+}
+
+.slidePage-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+button, input {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 0;
+}
+
+a:active {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    height: 1334px;
+    margin: 0 auto;
+    background: url("../img/bg.jpg") no-repeat center;
+}
+
+.black {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    position: fixed;
+    opacity: 0.6;
+    display: none;
+    filter: alpha(opacity=30);
+    background: black;
+}
+
+.video-wrap {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 5;
+    display: none;
+}
+
+.video {
+    width: 750px;
+    position: fixed;
+    height: 468px;
+    top: 32%;
+    left: 0;
+    z-index: 4;
+    display: none;
+}
+
+.main {
+    width: 750px;
+    height: 1334px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cw1 {
+    position: absolute;
+    width: 213px;
+    height: 378px;
+    left: 0;
+    top: 17%;
+    z-index: 3;
+    background: url("../img/cw1.png") no-repeat center;
+}
+
+.cw2 {
+    position: absolute;
+    width: 431px;
+    height: 494px;
+    left: 25px;
+    top: 17%;
+    z-index: 4;
+    background: url("../img/cw2.png") no-repeat center;
+}
+
+.light-1 {
+    width: 145px;
+    height: 208px;
+    position: absolute;
+    left: 30px;
+    top: 95px;
+    background: url("../img/light-1.png") no-repeat center;
+}
+
+.ball {
+    width: 92px;
+    height: 76px;
+    position: absolute;
+    left: 32px;
+    top: 166px;
+    background: url("../img/ball-test.png") no-repeat center;
+}
+
+.cw3 {
+    position: absolute;
+    width: 394px;
+    height: 416px;
+    right: 6%;
+    top: 21%;
+    z-index: 3;
+    background: url("../img/cw3.png") no-repeat center;
+}
+
+.cw4 {
+    position: absolute;
+    width: 264px;
+    height: 379px;
+    right: 0;
+    top: 13%;
+    background: url("../img/cw_6.png") no-repeat center;
+}
+
+.banner {
+    display: none;
+    height: 323px;
+}
+
+.banner.showActive {
+    display: block;
+}
+
+.video-btn-box {
+    width: 126px;
+    height: 158px;
+    margin: 0 auto;
+    position: absolute;
+    opacity: 0;
+    margin-top: 19px;
+    right: -13px;
+    z-index: 3;
+}
+
+.video-btn {
+    width: 119px;
+    height: 119px;
+    position: absolute;
+    background: url("../../img/play_bg.png") no-repeat center;
+}
+
+.playBtn {
+    width: 140px;
+    height: 91px;
+    position: absolute;
+    top: 14px;
+    left: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: url(../../img/btn.png) no-repeat center;
+}
+
+.playBtn:hover {
+    opacity: .8;
+    fill-opacity: .8;
+}
+
+.middle-box {
+    width: 572px;
+    height: 538px;
+    position: absolute;
+    /* top: 42%; */
+    left: 9%;
+    margin-top: 36%;
+    z-index: 4;
+}
+
+.logo {
+    width: 283px;
+    height: 212px;
+    margin: 0 auto;
+    padding-top: 94px;
+    opacity: 0;
+    background: url("../../img/logo-final.png") no-repeat center;
+}
+
+.english .desc-1 {
+    width: 700px;
+    height: 338px;
+    margin-left: -62px;
+    background: url("../img/desc2.png") no-repeat center;
+}
+
+.english .desc-2 {
+    width: 545px;
+    height: 129px;
+    margin: 0 auto;
+    background: url("../../img/desc-2.png") no-repeat center;
+}
+
+.english .desc-3 {
+    width: 559px;
+    height: 79px;
+    margin: 0 auto;
+    background: url("../../img/desc-3.png") no-repeat center;
+}
+
+.chinese .desc {
+    width: 574px;
+    height: 364px;
+    background: url("../../img/desc.png") no-repeat center;
+}
+
+.download-box {
+    width: 584px;
+    height: 194px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    opacity: 0;
+    background: url("../../img/download_bg.png") no-repeat center;
+}
+
+.down {
+    margin-top: 4%;
+}
+
+.down-code {
+    width: 140px;
+    height: 137px;
+    margin-left: 39px;
+    border: 1px solid white;
+}
+
+.download-box a {
+    display: block;
+}
+
+.down-btn {
+    width: 195px;
+    margin-left: 10px;
+    height: 137px;
+}
+
+.down-btn a {
+    width: 195px;
+    height: 65px;
+}
+
+
+.down-href a:active {
+    opacity: .6;
+    fill-opacity: .6;
+}
+
+.ios {
+    background: url("../../img/ios.png") no-repeat center;
+    margin-bottom: 7px;
+}
+
+.apk {
+    width: 148px;
+    height: 137px;
+    background: url("../../img/apk.png") no-repeat center;
+}
+
+.google {
+    background: url("../../img/google.png") no-repeat center;
+}
+
+.box-lang {
+    display: block;
+    float: right;
+    text-indent: 5px;
+    border-radius: 5px;
+    position: relative;
+    border: solid 3px #0485d8;
+    margin: 3px auto 3px 40px;
+    background: white;
+    line-height: 28px;
+    font-size: 14px;
+    width: 120px;
+    right: 53px;
+}
+
+.box-lang span {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.box-lang i {
+    float: right;
+    width: 0;
+    height: 7px;
+    display: block;
+    margin: 11px 10px 0 20px;
+    border-top: solid 12px #08abf8;
+    border-left: solid 6px transparent;
+    border-right: solid 6px transparent;
+}
+
+.box-lang ul {
+    width: 100%;
+    height: auto;
+    top: 35px;
+    display: none;
+    position: absolute;
+    background: white;
+}
+
+.box-lang ul li {
+    cursor: pointer;
+    padding: 3px 0;
+    border-bottom: solid 1px #08abf8;
+}
+
+.box-lang ul li:hover {
+    color: #08abf8;
+}
+
+footer {
+    width: 750px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background: #005292;
+}
+
+.copyRight {
+    width: 521px;
+    margin: 0 auto;
+    margin-top: 16px;
+    text-align: left;
+}
+
+.copyRight p {
+    color: white;
+    font-size: 13px;
+    margin-top: -20px;
+    margin-left: 91px;
+}
